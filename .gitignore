@@ -55,6 +55,8 @@ coverage.xml
 *.log
 local_settings.py
 db.sqlite3
+django/tweets/migrations/*.py
+django/cover/*
 
 # Flask stuff:
 instance/
@@ -102,3 +104,9 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# react
+node_modules
+
+# Twitter app
+*credentials.txt
